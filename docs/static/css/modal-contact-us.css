@@ -1,0 +1,180 @@
+.modal-36kr-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.modal-36kr-root {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  outline: 0;
+  z-index: 9999;
+  text-align: center;
+}
+.modal-36kr-root::before {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+  content: "";
+}
+.modal-36kr-root .kr-modal {
+  overflow: hidden;
+  display: inline-block;
+  box-sizing: border-box;
+  color: #40485b;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  pointer-events: none;
+  position: relative;
+  width: auto;
+  max-width: calc(100vw - 32px);
+  margin: 8px auto;
+  top: 0;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal-36kr-root .kr-modal .modal-content {
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+}
+.modal-36kr-root .kr-modal .modal-content .modal-body {
+  position: relative;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 1.5715;
+  word-wrap: break-word;
+}
+.modal-36kr-root .kr-modal .modal-content .modal-body .right-close-modal-icon-box {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 2;
+}
+.modal-36kr-root .kr-modal .modal-content .modal-body .right-close-modal-icon-box .close-text {
+  transform: rotate(45deg);
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #999;
+  cursor: pointer;
+}
+.modal-36kr-root .kr-modal .modal-content .modal-body .right-close-modal-icon-box .close-text:hover {
+  color: #888;
+}
+.modal-36kr-root .modal-index-flex-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  width: 500px;
+  padding: 40px;
+}
+.modal-36kr-root .modal-index-flex-content .top-img-box {
+  height: 40px;
+}
+.modal-36kr-root .modal-index-flex-content .top-img-box .logo-img {
+  height: 40px;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.modal-36kr-root .modal-index-flex-content .center-text-box {
+  padding: 32px 0;
+}
+.modal-36kr-root .modal-index-flex-content .center-text-box .text-large .text {
+  padding: 0 16px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #333;
+}
+.modal-36kr-root .modal-index-flex-content .center-text-box .text-large .text.theme {
+  color: #3351ff;
+}
+.modal-36kr-root .modal-index-flex-content .center-text-box .text-less {
+  padding-top: 20px;
+}
+.modal-36kr-root .modal-index-flex-content .center-text-box .text-less .text {
+  font-size: 16px;
+  color: #666;
+}
+.modal-36kr-root .modal-index-flex-content .btn-box .btn {
+  width: 50%;
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 45px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.85);
+  border: 1px solid #d9d9d9;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.modal-36kr-root .modal-index-flex-content .btn-box .btn.yesdev {
+  border-color: #3351ff;
+  background: #3351ff;
+}
+.modal-36kr-root .modal-index-flex-content .btn-box .btn.yesdev:hover {
+  border-color: #516fff;
+  background: #516fff;
+}
+.modal-36kr-root .modal-index-flex-content .btn-box .btn.yesdev:active {
+  border-color: #1f3deb;
+  background: #1f3deb;
+}
+.modal-36kr-root .modal-index-flex-content .bottom-img-box {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+.modal-36kr-root .modal-index-flex-content .bottom-img-box .contact-box {
+  text-align: center;
+}
+.modal-36kr-root .modal-index-flex-content .bottom-img-box .img-box {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.modal-36kr-root .modal-index-flex-content .bottom-img-box .img-box .img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.modal-36kr-root .modal-index-flex-content .bottom-img-box .text-box small {
+  text-align: center;
+  white-space: normal;
+  word-break: break-all;
+}

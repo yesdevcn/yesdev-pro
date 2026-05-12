@@ -1,0 +1,56 @@
+@import url("./header.less");
+.global-header-menu {
+  width: 100vw;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  .header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    background-color: #1d1d70;
+    .img {
+      position: absolute;
+      width: auto;
+      height: 100%;
+    }
+    .content {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      width: 100%;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #fff;
+    }
+    .close-icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 30px;
+      color: #fff;
+      font-size: 18px;
+      font-weight: lighter;
+      cursor: pointer;
+    }
+  }
+  .header-bottom {
+    box-shadow: 0px 1px 6px 0px rgba(74, 74, 74, 0.08);
+    .yesdev-logo-brand {
+      margin-right: 80px;
+      .logo-img {
+        height: 36px;
+        width: auto;
+        object-fit: contain;
+      }
+    }
+  }
+}
