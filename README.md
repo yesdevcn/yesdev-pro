@@ -41,8 +41,7 @@ YesDev Pro 专为有严格数据安全要求的企业设计。无论您是科技
 - 进度跟踪与提醒
 - 自定义任务字段与工作流程
   
-<img width="120" height="62" alt="image" src="https://github.com/user-attachments/assets/77d103c5-2e12-44e3-a483-e38473f3b8ff" />
-
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/663f5a86-3939-41c4-871d-5ef91251f78b" />
 
 ### 2. **项目全生命周期管理**
 覆盖项目从启动到交付的全过程：
@@ -52,7 +51,7 @@ YesDev Pro 专为有严格数据安全要求的企业设计。无论您是科技
 - 项目模板与最佳实践复用
 - 多项目组合管理
   
-<img width="120" height="72" alt="image" src="https://github.com/user-attachments/assets/a85b5542-d94e-4a6d-963b-92a3a261274a" />
+<img width="1324" height="793" alt="image" src="https://github.com/user-attachments/assets/6daf2f46-a942-4aa6-9eb5-a3a6663af406" />
 
 
 ### 3. **团队协作**
@@ -62,8 +61,9 @@ YesDev Pro 专为有严格数据安全要求的企业设计。无论您是科技
 - 在线文档协作编辑
 - 测试用例管理与共享
 - 支持跨角色、跨地点协作
-  
-<img width="120" height="62" alt="image" src="https://github.com/user-attachments/assets/4e072c3b-d5fc-48a7-b590-987873692161" />
+
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/16e7922a-4bd0-43e0-a5b5-b580360a0407" />
+
 
 ### 4. **数据安全与私有部署**
 企业级安全特性：
@@ -74,7 +74,7 @@ YesDev Pro 专为有严格数据安全要求的企业设计。无论您是科技
 - **访问控制** - 基于角色的权限管理（RBAC）
 - **审计日志** - 完整的操作记录与追溯
   
-<img width="120" height="84" alt="image" src="https://github.com/user-attachments/assets/3a033093-1bba-4538-ad2c-8b31539fd1ae" />
+ <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/2a7b929e-f207-4b28-84aa-4074df1c57a0" />
 
 
 ### 5. **项目报告管理**
