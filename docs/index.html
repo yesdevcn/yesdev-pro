@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>YesDev 在线产品使用手册</title>
+  <meta name="Author" content="PhalApi,ecitlm,dogstar">
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="description" content="YesDev 6.0 在线产品使用手册">
+  <meta name="keywords" content="YesDev,项目管理,项目协作,使用手册,研发协同工具">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./static/vue.css">
+
+  <link rel="stylesheet" href="./docsify-dark-mode.style.min.css.css">
+
+  <!-- 预约演示弹窗样式 -->
+  <link rel="stylesheet" href="//yesapi2.oss-cn-beijing.aliyuncs.com/guochuang_www/appointment-demonstration.css" type="text/css" media="all" />
+
+  <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4086960815369796"
+crossorigin="anonymous"></script>-->
+
+  <style>
+   #main #dark_mode {
+       top: 48px !important;
+   }
+  </style>
+</head>
+
+<body>
+  <div id="app">YesDev产品文档正在拼命加载中...</div>
+</body>
+<script>
+  window.$docsify = {
+    themeColor: '#3351ff',
+    name: 'YesDev 在线产品使用手册',
+    repo: '',
+    auto2top: true,
+    coverpage: true,
+    executeScript: true,
+    loadSidebar: true,
+    loadNavbar: true,
+    mergeNavbar: true,
+    maxLevel: 4,
+    subMaxLevel: 2,
+
+    formatUpdated: '{MM}/{DD} {HH}:{mm}',
+    plugins: [
+      function (hook, vm) {
+        hook.beforeEach(function (html) {
+          var adHtml = '<div class="grid-wrapper desktop-only" style="margin-bottom: 20px;">'
+          + '<a href="http://pro.yesdev.cn/?f=help" target="blank"><img src="./yesdev_ad_pro_20240813.png" width="100%"></a>'
+          + '</div>';
+
+          return "\n" + "\n\n" + html
+            + '\n----\n'
+            + adHtml
+            + ' © 2020-2024 <a href="https://www.yesdev.cn/" target="_blank">YesDev研发协同工具</a> www.yesdev.cn 广州果创网络科技有限公司 All Rights Reserved. '
+        })
+      }
+    ],
+
+    count:{
+       countable: true,
+       position: 'top',
+       margin: '10px',
+       float: 'right',
+       fontsize:'0.9em',
+       color:'rgb(90,90,90)',
+       language:'chinese',
+       localization: {
+         words: "",
+         minute: ""
+       },
+        isExpected: true
+    },
+    pagination: {
+        previousText: '上一章节',
+        // or
+        // nextText: {
+        //    '/en/': 'NEXT',
+        //     '/': '下一章节'
+        // },
+        crossChapter: true,
+        crossChapterText: true
+    },
+
+    // docsify ads 配置广告
+    ads: [
+       {
+          img: './20240813-093327.png',
+          href: 'http://pro.yesdev.cn/?f=help_top'
+       },
+    ],
+
+    // 白天黑夜
+    darkMode: {
+      dark: {
+            background: "#1c2022",
+            toggleBtnBg: "#34495e",
+            textColor: "#b4b4b4"
+      },
+      light: {
+            background: "white",
+            toggleBtnBg: "#000",
+            textColor: "#34495e"
+       }
+    },
+
+   search: {
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      paths: 'auto',
+      placeholder: '搜索',
+      noData: '没有记录！'
+    }
+
+
+  }
+
+  var _hmt = _hmt || [];
+  (function() {
+   var hm = document.createElement("script");
+   hm.src = "https://hm.baidu.com/hm.js?b8565ba1e98e0cd6eff7ffa06d006b4f";
+   var s = document.getElementsByTagName("script")[0]; 
+   s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+<!-- <script src="https://cdn.bootcss.com/docsify/4.6.10/docsify.min.js"></script> -->
+<!-- <script src="//unpkg.com/docsify@4.6.10/lib/docsify.min.js"></script> -->
+<script src="./docsify.min.js"></script>
+<script src="./static/prism-bash.min.js"></script>
+<script src="./static/prism-php.min.js"></script>
+<script src="./static/prism-markdown.min.js"></script>
+<script src="./static/prism-nginx.min.js"></script>
+<!-- <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script> -->
+<script src="./search.min.js"></script>
+
+<script src="./countable.min.js"></script>
+<!-- 分页 -->
+<script src="./docsify-pagination.min.js"></script>
+<!-- 广告 -->
+<script src="./docsify-ads.min.js"></script>
+<!-- 黑夜 -->
+<script src="./docsify-dark-mode.index.min.js"></script>
+
+<!-- 预约演示弹窗脚本 -->
+<script src="./static/jquery.min.js" type="text/javascript"></script>
+<script src="//yesapi2.oss-cn-beijing.aliyuncs.com/guochuang_www/appointment-demonstration.js?v=20240608"></script>
+
+</html>
